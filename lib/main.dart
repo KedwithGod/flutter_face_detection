@@ -22,7 +22,7 @@ class VideoCallApp extends StatelessWidget {
     bool isIOS = Platform.isIOS;
 
   // signalling server url
-  final String websocketUrl = "ws://pcash2.novajii.com:8084";
+  final String websocketUrl = "";
 
   // generate callerID of local user
   final String selfCallerID =
